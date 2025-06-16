@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width:65px;
+    float: left;
+    height: 70px;
+    position: relative;
+    right: 600px;
+    top: 25px;
+}
+
+.logo{
+    color: rgb(110, 236, 91);
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    padding-left: 15px;
+}
+
+.logo #home{
+    text-decoration: none;
+    color: rgb(110, 236, 91) ;
+}
+
+.icons{
+    position: relative;
+    right: 450px;
+    width: 60px;
+    float: left;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    white-space: nowrap;
+    padding-top: 45px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px rgb(66, 74, 64);
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(232, 245, 219);
+    transition: 0.3s ease;
+}
+
+ul li a:hover{
+    color: rgb(31, 207, 31);
+}
+
+.content{
+    width: 150px;
+    height: auto;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.content .cn{
+    padding-left: 20px;
+    font-size: 90px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.content .cn2{
+    padding-left: 20px;
+    font-size: 90px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.content p{
+    font-size: 30px;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+
+.design{
+    width: 700px;
+    height: auto;
+    margin-left: 580px;
+    margin-top: 170px;
+    background-color: purple;
+    border: 5px solid rgb(129, 122, 122);
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187); 
+    
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+    
+}
+
+.menu button{
+    width: 200px;
+    height: auto;
+    font-size: 15px;
+    color: black;
+    font-family: roboto;
+    background-color: rgb(110, 236, 91);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu a{
+    display: block;
+    width: 189px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: rgb(217, 221, 216);
+    transition: 0.3s ease-in-out;
+    text-shadow: 1px 1px 3px rgba(37, 24, 24, 0.488);
+}
+
+.menu .topicss{
+    display: none;
+    position: absolute;
+    box-shadow: 8px 8px 5px rgba(57, 59, 57, 0.545);
+    z-index: 2;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    background-color: rgb(49, 243, 23);
+}
+
+.menu .topicss a:hover{
+    background-color: rgb(96, 249, 79);
+}
+
+.menu:hover .topicss{
+    display: block;
+}
+
+.topicss #f1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.topicss #f2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contentpage1{
+    width: 150px;
+    height: auto;
+    padding: 10px 15px;
+    float: left;
+    color: white;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
+.contentpage1 .cnpage1{
+    font-size: 60px;
+    padding-left: 20px;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .cn1page1{
+    font-size: 60px;
+    padding-left: 20px;
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+}
+
+.contentpage1 .par{
+    font-size: 30px;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+.par-content{
+    width: 650px;
+    height: 450px;
+    padding-left: 20px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    color: rgb(250, 250, 250);
+    background-color:transparent;
+    overflow: auto;
+    border: 2px solid rgb(29, 28, 28);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    white-space: pre-line;
+    padding: 10px 30px;
+    word-spacing: normal;
+    font-family: 'Roboto mono';
+    backdrop-filter: blur(50px);
+    z-index: 1;
+}
+
+.par-content::-webkit-scrollbar {
+    width: 0px;
+    height: 0px; 
+    background: transparent; 
+}
+
+.par-container .text{
+    text-shadow: 3px 3px 8px rgb(213, 213, 213);
+}
+
+.par-container .ref{
+    text-decoration: none;
+    color: rgb(138, 131, 253);
+}
+
+.par-container a:visited{
+    color:rgb(103, 52, 233) ;
+}
+
+@media(max-width: 600px){
+    .icon{
+    width: 50px;
+    height: 70px;
+    position: relative;
+    right: 75px;
+    top: 25px;
+ }
+
+    .logo{
+    color: rgb(110, 236, 91);
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    padding-left: 15px;
+    float: left;
+    margin-left: 20px;
+    }
+
+    .icons{
+    position: relative;
+    right: 180px;
+    top: 25px;
+    width: 10px;
+    float: right;
+    }
+
+    ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    padding-top: 10px;
+    }
+
+    ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px rgb(66, 74, 64);
+    }
+
+    ul li a{
+    text-decoration: none;
+    color: rgb(232, 245, 219);
+    transition: 0.3s ease;
+    }
+
+    ul li a:hover{
+    color: rgb(31, 207, 31);
+    }
+
+       
+    .content{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+   }
+
+    .content .cn{
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    }
+
+    .content .cn2{
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 236, 91);
+    white-space: nowrap;
+    }
+
+    .content p{
+    font-size: 13px;
+    float: left;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: white;
+    }
+
+    .design{
+    width: 250px;
+    height: auto;
+    margin-left: -129px;
+    margin-top: 170px;
+    background-color: purple;
+    border: 5px solid rgb(129, 122, 122);
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px rgb(190, 214, 187);
+    
+    
+    }
+
+    
+
+       
+    
+}
+
+
+
+
+
+
